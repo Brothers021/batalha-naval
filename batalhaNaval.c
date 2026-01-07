@@ -19,6 +19,14 @@ int main() {
             tabuleiro[i][j] = 0; // Inicializa todas as posições do tabuleiro com 0 (água)
         }
     }
+// posiçionando navios no tabuleiro em diagonais tamanho 3
+   for (int i = 0; i < 3; i++){
+    tabuleiro[i][i] = 3;
+   }
+ // posiçionando navios no tabuleiro na diagonal tamanho 3  
+   for (int i = 0; i < 3; i++){
+    tabuleiro[i][9 - i] = 3;
+   }
 // posiçionando navios no tabuleiro horizontalmente tamanho 3
     for (int j = 4; j < 7; j++) {
         tabuleiro[2][j] = 3;
