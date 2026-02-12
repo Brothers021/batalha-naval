@@ -1,6 +1,6 @@
 # 🚢 Batalha Naval
 
-Este projeto foi desenvolvido como parte de um desafio de programação.  
+Este projeto foi desenvolvido como parte de um desafio de lógica da programação.  
 O objetivo é implementar o clássico jogo de **Batalha Naval**, permitindo que dois jogadores posicionem seus navios e tentem afundar a frota adversária.
 
 ## 🎮 Funcionalidades
